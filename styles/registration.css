@@ -1,0 +1,108 @@
+@media (min-width: 0px) {
+    .main-container {
+        width: 100% !important;
+        padding-left: 0.6rem !important;
+        padding-right: 0.6rem !important;
+    }
+
+    .registration-container h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .main-container {
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-container {
+        width: 60% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-container {
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.registration-container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.registration-container h1 {
+    font-weight: bold;
+    letter-spacing: 0.05rem !important;
+    padding: 1rem;
+    padding-bottom: 0rem;
+    margin: 0;
+}
+
+.registration-main-components {
+    padding: 1rem;
+}
+
+label {
+    margin-bottom: 0.25rem !important;
+}
+
+.required-label:after {
+    content: " *";
+    color: rgb(255, 65, 54);
+}
+
+input:focus {
+    border-color: rgb(64, 64, 64) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.button-submit {
+    background-color: rgb(255, 133, 27) !important;
+    width: 100%;
+    height: 100%;
+    padding: .75rem 1.25rem !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.button-submit:hover {
+    background-color: rgb(245, 123, 17) !important;
+}
+
+.error {
+    color: rgb(255, 65, 54) !important;
+    margin: 0 !important;
+    padding: 0 0 1rem !important;
+}

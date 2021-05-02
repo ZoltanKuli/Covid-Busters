@@ -1,0 +1,209 @@
+@media (min-width: 0px) {
+    .logging-registration-link-container a {
+        font-size: 1.1rem;
+    }
+
+    .main-container {
+        width: 100% !important;
+        padding-left: 0.6rem !important;
+        padding-right: 0.6rem !important;
+    }
+
+    .vaccination-dates-container h1,
+    .user-data-container h1,
+    .new-vaccination-date-container h1 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .logging-registration-link-container a {
+        font-size: 1.2rem;
+    }
+
+    .main-container {
+        width: 90% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-container {
+        width: 80% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .main-container {
+        width: 60% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1200px) {
+    .main-container {
+        width: 50% !important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.vaccination-dates-container,
+.user-data-container,
+.new-vaccination-date-container {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 0.25rem;
+    margin-bottom: 2rem;
+}
+
+.vaccination-dates-container h1,
+.user-data-container h1,
+.new-vaccination-date-container h1 {
+    font-weight: bold;
+    letter-spacing: 0.05rem !important;
+    padding: 1rem 1rem 0 1rem !important;
+    margin: 0;
+}
+
+.vaccination-dates-main-components,
+.user-data-main-components,
+.new-vaccination-date-main-components {
+    padding: 1rem !important;
+}
+
+.vaccination-dates-main-components p,
+.user-data-main-components p,
+.new-vaccination-date-main-components p {
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
+.user-text {
+    color: rgb(245, 123, 17) !important;
+}
+
+.list-group-item {
+    color: white !important;
+    border: 0 solid #dee2e6 !important;
+    border-radius: 0.25rem !important;
+    margin-bottom: 0.5rem !important;
+    justify-content: space-between;
+}
+
+.list-group-item-available {
+    background-color: rgb(46, 204, 64) !important;
+}
+
+.list-group-item-available:hover {
+    background-color: rgb(36, 194, 54) !important;
+}
+
+.list-group-item-full {
+    background-color: rgb(255, 65, 54) !important;
+}
+
+.list-group-item-full:hover {
+    background-color: rgb(245, 55, 44) !important;
+}
+
+.list-group-item-available-no-btn {
+    background-color: rgb(46, 204, 64) !important;
+    cursor: default !important;
+}
+
+.list-group-item-full-no-btn {
+    background-color: rgb(255, 65, 54) !important;
+    cursor: default !important;
+}
+
+.button {
+    background-color: rgb(255, 133, 27) !important;
+    padding: .75rem 1.25rem !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(245, 123, 17) !important;
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+label {
+    margin-bottom: 0.25rem !important;
+}
+
+input:focus {
+    border-color: rgb(64, 64, 64) !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+.button-submit {
+    background-color: rgb(255, 133, 27) !important;
+    width: 100%;
+    height: 100%;
+    padding: .75rem 1.25rem !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.button:focus, .button:active {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.button-submit:hover {
+    background-color: rgb(245, 123, 17) !important;
+}
+
+.error {
+    color: rgb(255, 65, 54) !important;
+    margin: 0 !important;
+    padding: 0 0 1rem !important;
+}
+
+.button-cancel {
+    background-color: rgb(255, 133, 27) !important;
+    width: 100%;
+    height: 100%;
+    padding: .75rem 1.25rem !important;
+    color: white !important;
+    border: none !important;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.button-cancel:focus, .button-cancel:active {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.button-cancel:hover {
+    background-color: rgb(245, 123, 17) !important;
+}
+
