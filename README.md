@@ -1,4 +1,4 @@
-# The Story behind Covid Busters
+# The Story Behind Covid Busters
 
 I made Covid Busters, a site for registering for vaccination, during the fall of 2020 for my second web development class.
 
