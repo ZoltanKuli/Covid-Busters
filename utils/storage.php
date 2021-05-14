@@ -159,7 +159,7 @@ class UserStorage extends Storage
 {
     public function __construct()
     {
-        parent::__construct(new JsonIO('/home/hallgatok/gshkd4/www/storages/users.json'));
+        parent::__construct(new JsonIO('C:\xampp\htdocs\covid-busters\storages\users.json'));
     }
 }
 
@@ -167,7 +167,7 @@ class AppointmentStorage extends Storage
 {
     public function __construct()
     {
-        parent::__construct(new JsonIO('/home/hallgatok/gshkd4/www/storages/appointments.json'));
+        parent::__construct(new JsonIO('C:\xampp\htdocs\covid-busters\storages\appointments.json'));
     }
 
     public function addAppointment($data)
