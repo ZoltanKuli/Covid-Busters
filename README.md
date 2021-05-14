@@ -36,4 +36,6 @@ The purpose of this website is to help people register for their Covid-19 vaccin
 * HTML
 * CSS
 * Bootstrap
-
+* PhpStorm
+* Visual Studio Code
+* WinSCP
