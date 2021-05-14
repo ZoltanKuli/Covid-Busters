@@ -1,0 +1,52 @@
+{
+    "609e3ff477a66": {
+        "fullname": "Zolt\u00e1n Kuli",
+        "taj": 999999999,
+        "address": "United States",
+        "email": "zoltan.oa@gmail.com",
+        "password": "$2y$10$zD7tIgbl1zYfxHT4Fn64Gu7yyIvQS3VdzAgMhf11zGSAn6Wq5F9x2",
+        "role": "Admin",
+        "vaccination-id": "",
+        "id": "609e3ff477a66"
+    },
+    "609e4110f25a2": {
+        "fullname": "Example User1",
+        "taj": 888888888,
+        "address": "United States",
+        "email": "user1@covid.busters",
+        "password": "$2y$10$Uuom9b\/nZbzbSw46QMaEs.QYlUi7oKfejl2k1nT5maOXaiU2MkLiK",
+        "role": "User",
+        "vaccination-id": "609e5cef2c438",
+        "id": "609e4110f25a2"
+    },
+    "609e4970be226": {
+        "fullname": "Example User2",
+        "taj": 777777777,
+        "address": "United States",
+        "email": "user2@covid.busters",
+        "password": "$2y$10$ovJC8x3oHXrMxhJokV9SP.7hvckw4dAELSK4Ycq\/61oE3ZtSIJIDG",
+        "role": "User",
+        "vaccination-id": "",
+        "id": "609e4970be226"
+    },
+    "609e57379e878": {
+        "fullname": "Zolt\u00e1n Kuli",
+        "taj": 666666666,
+        "address": "US",
+        "email": "email@gmail.com",
+        "password": "$2y$10$0W3Z5PftD\/hxZI2O\/nbKauMlYIj5Y3zRiThm3Bruz2kuhmubPKCnW",
+        "role": "User",
+        "vaccination-id": "",
+        "id": "609e57379e878"
+    },
+    "609e5c8185179": {
+        "fullname": "Zolt\u00e1n Kuli",
+        "taj": 111111111,
+        "address": "United States",
+        "email": "user3@covid.busters",
+        "password": "$2y$10$xs1HI\/AVJ8m8vbQcuYuHDue.lU\/eLkkX\/MYd\/xUmwHiO\/djSR5urK",
+        "role": "User",
+        "vaccination-id": "609e436f96b3a",
+        "id": "609e5c8185179"
+    }
+}
