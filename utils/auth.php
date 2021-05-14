@@ -46,7 +46,6 @@ class Auth
         $usersByTaj = $this->user_storage->findOne(['taj' => $taj]);
 
         $usersByEmail = $this->user_storage->findOne(['email' => $email]);
-        print !is_null($usersByTaj) || !is_null($usersByEmail);
         return !is_null($usersByTaj) || !is_null($usersByEmail);
     }
 
