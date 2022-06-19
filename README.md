@@ -24,7 +24,7 @@ The purpose of this website is to help people register for their Covid-19 vaccin
 <img align="centre" alt="Covid Busters Screenshot" src="images/site_19.png">
 <img align="centre" alt="Covid Busters Screenshot" src="images/site_20.png">
 
-# Skills Demonstrated
+# Highlights
 * Created a responsive website with Bootstrap.
 * Built a PHP- and JSON-based system that users can use to create an account and log in.
 * Implemented admin features that enable the admins to create new vaccination dates.
@@ -36,6 +36,3 @@ The purpose of this website is to help people register for their Covid-19 vaccin
 * HTML
 * CSS
 * Bootstrap
-* PhpStorm
-* Visual Studio Code
-* WinSCP
